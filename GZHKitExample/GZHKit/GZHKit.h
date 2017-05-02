@@ -18,6 +18,7 @@
 #import "UIView+GZHExtension.h"
 #import "UIView+GZHFrame.h"
 #import "UIView+GZHShape.h"
+#import "UIViewController+GZHCurrentViewController.h"
 
 #endif /* __OBJC__ */
 
