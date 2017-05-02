@@ -21,6 +21,8 @@
 		5883F09B1EB83F4E00843B10 /* UIView+GZHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F0931EB83F4D00843B10 /* UIView+GZHFrame.m */; };
 		5883F09C1EB83F4E00843B10 /* UIView+GZHShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F0951EB83F4D00843B10 /* UIView+GZHShape.m */; };
 		5883F09F1EB8441A00843B10 /* UIViewController+GZHCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F09E1EB8441A00843B10 /* UIViewController+GZHCurrentViewController.m */; };
+		5883F0A21EB848A900843B10 /* UIStoryboard+GZHStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F0A11EB848A900843B10 /* UIStoryboard+GZHStoryboard.m */; };
+		5883F0A51EB84A4A00843B10 /* UIColor+GZHHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F0A41EB84A4A00843B10 /* UIColor+GZHHex.m */; };
 		6C4BE04A1D5BBE2059BCE648 /* libPods-GZHKitExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B52C1727C8384F1F97C0A23D /* libPods-GZHKitExample.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,10 @@
 		5883F0951EB83F4D00843B10 /* UIView+GZHShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZHShape.m"; sourceTree = "<group>"; };
 		5883F09D1EB8441A00843B10 /* UIViewController+GZHCurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GZHCurrentViewController.h"; sourceTree = "<group>"; };
 		5883F09E1EB8441A00843B10 /* UIViewController+GZHCurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GZHCurrentViewController.m"; sourceTree = "<group>"; };
+		5883F0A01EB848A900843B10 /* UIStoryboard+GZHStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+GZHStoryboard.h"; sourceTree = "<group>"; };
+		5883F0A11EB848A900843B10 /* UIStoryboard+GZHStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+GZHStoryboard.m"; sourceTree = "<group>"; };
+		5883F0A31EB84A4A00843B10 /* UIColor+GZHHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GZHHex.h"; sourceTree = "<group>"; };
+		5883F0A41EB84A4A00843B10 /* UIColor+GZHHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GZHHex.m"; sourceTree = "<group>"; };
 		B52C1727C8384F1F97C0A23D /* libPods-GZHKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GZHKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,8 +136,12 @@
 				5883F0891EB83F4D00843B10 /* UICollectionViewCell+GZHReusable.m */,
 				5883F08A1EB83F4D00843B10 /* UIColor+GZHExtension.h */,
 				5883F08B1EB83F4D00843B10 /* UIColor+GZHExtension.m */,
+				5883F0A31EB84A4A00843B10 /* UIColor+GZHHex.h */,
+				5883F0A41EB84A4A00843B10 /* UIColor+GZHHex.m */,
 				5883F08C1EB83F4D00843B10 /* UIImage+GZHImage.h */,
 				5883F08D1EB83F4D00843B10 /* UIImage+GZHImage.m */,
+				5883F0A01EB848A900843B10 /* UIStoryboard+GZHStoryboard.h */,
+				5883F0A11EB848A900843B10 /* UIStoryboard+GZHStoryboard.m */,
 				5883F08E1EB83F4D00843B10 /* UITableViewCell+GZHReusable.h */,
 				5883F08F1EB83F4D00843B10 /* UITableViewCell+GZHReusable.m */,
 				5883F0901EB83F4D00843B10 /* UIView+GZHExtension.h */,
@@ -281,6 +291,8 @@
 				5883F09C1EB83F4E00843B10 /* UIView+GZHShape.m in Sources */,
 				5883F0761EB83D1500843B10 /* ViewController.m in Sources */,
 				5883F0971EB83F4E00843B10 /* UIColor+GZHExtension.m in Sources */,
+				5883F0A51EB84A4A00843B10 /* UIColor+GZHHex.m in Sources */,
+				5883F0A21EB848A900843B10 /* UIStoryboard+GZHStoryboard.m in Sources */,
 				5883F09A1EB83F4E00843B10 /* UIView+GZHExtension.m in Sources */,
 				5883F0991EB83F4E00843B10 /* UITableViewCell+GZHReusable.m in Sources */,
 				5883F0961EB83F4E00843B10 /* UICollectionViewCell+GZHReusable.m in Sources */,
