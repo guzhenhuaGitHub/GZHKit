@@ -12,6 +12,10 @@
 
 @implementation UIImageView (GZHExtension)
 
++ (instancetype)viewWithImageNamed:(NSString *)imageName {
+    return [[UIImageView alloc] initWithImage:[UIImage imageNamed:imageName]];
+}
+
 - (void)setImageWithURL:(NSString *)url placeholderImageNamed:(NSString *)placeholderImageName
 {
     weakSelf;

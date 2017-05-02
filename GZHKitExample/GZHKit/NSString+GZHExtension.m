@@ -10,14 +10,18 @@
 
 @implementation NSString (GZHExtension)
 
-- (NSString *)trimWithDefault:(NSString *)_default {
-    
-    NSString * trimString = [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    return self.length > 0 ? trimString : _default;
+- (BOOL)isEmpty {
+    return ! (self.length > 0);
 }
 
 - (NSString *)trim {
     return [self trimWithDefault:@""];
+}
+
+- (NSString *)trimWithDefault:(NSString *)_default {
+    
+    NSString * trimString = [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    return ( ! [self isEmpty] ) ? trimString : _default;
 }
 
 - (unsigned long long)fileSize

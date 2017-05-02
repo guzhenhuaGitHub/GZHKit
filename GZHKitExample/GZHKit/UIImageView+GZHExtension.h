@@ -10,6 +10,7 @@
 
 @interface UIImageView (GZHExtension)
 
++ (instancetype)viewWithImageNamed:(NSString *)imageName;
 - (void)setImageWithURL:(NSString *)url placeholderImageNamed:(NSString *)placeholderImageName;
 
 @end

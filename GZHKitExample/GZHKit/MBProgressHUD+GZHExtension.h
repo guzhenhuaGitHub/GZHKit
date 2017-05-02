@@ -12,5 +12,6 @@
 
 + (void)gzh_showMessage:(NSString *)message;
 + (void)gzh_showMessage:(NSString *)message atView:(UIView *)aView;
++ (void)gzh_showMessage:(NSString *)message imageNamed:(NSString *)imageName atView:(UIView *)aView;
 
 @end

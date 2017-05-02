@@ -10,8 +10,11 @@
 
 @interface NSString (GZHExtension)
 
-- (NSString *)trimWithDefault:(NSString *)_default;
+- (BOOL)isEmpty;
+
 - (NSString *)trim;
+- (NSString *)trimWithDefault:(NSString *)_default;
+
 - (unsigned long long)fileSize;
 
 @end
