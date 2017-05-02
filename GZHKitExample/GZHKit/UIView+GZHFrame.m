@@ -10,6 +10,8 @@
 
 @implementation UIView (GZHFrame)
 
+#pragma mark size
+
 - (CGSize)gzh_size
 {
     return self.frame.size;
@@ -22,9 +24,11 @@
     self.frame = frame;
 }
 
+#pragma mark x
+
 - (CGFloat)gzh_x
 {
-    return self.frame.origin.x;
+    return CGRectGetMinX(self.frame);
 }
 
 - (void)setGzh_x:(CGFloat)gzh_x
@@ -34,9 +38,11 @@
     self.frame = frame;
 }
 
+#pragma mark y
+
 - (CGFloat)gzh_y
 {
-    return self.frame.origin.y;
+    return CGRectGetMinY(self.frame);
 }
 
 - (void)setGzh_y:(CGFloat)gzh_y
@@ -46,9 +52,11 @@
     self.frame = frame;
 }
 
+#pragma mark width
+
 - (CGFloat)gzh_width
 {
-    return self.frame.size.width;
+    return CGRectGetWidth(self.frame);
 }
 
 - (void)setGzh_width:(CGFloat)gzh_width
@@ -58,9 +66,11 @@
     self.frame = frame;
 }
 
+#pragma mark height
+
 - (CGFloat)gzh_height
 {
-    return self.frame.size.height;
+    return CGRectGetHeight(self.frame);
 }
 
 - (void)setGzh_height:(CGFloat)gzh_height
@@ -69,6 +79,8 @@
     frame.size.height = gzh_height;
     self.frame = frame;
 }
+
+#pragma mark center.x
 
 - (CGFloat)gzh_centerX
 {
@@ -82,6 +94,8 @@
     self.center = center;
 }
 
+#pragma mark center.y
+
 - (CGFloat)gzh_centerY
 {
     return self.center.y;
@@ -94,20 +108,26 @@
     self.center = center;
 }
 
-- (CGPoint)gzh_boundsCenter
+#pragma mark center inside
+
+- (CGPoint)gzh_centerInside
 {
     return CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
 }
 
+#pragma mark left
+
 - (CGFloat)gzh_left
 {
-    return self.gzh_x;
+    return CGRectGetMinX(self.frame);
 }
 
 - (void)setGzh_left:(CGFloat)gzh_left
 {
     self.gzh_x = gzh_left;
 }
+
+#pragma mark right
 
 - (CGFloat)gzh_right
 {
@@ -120,15 +140,19 @@
     self.gzh_x = gzh_right - self.gzh_width;
 }
 
+#pragma mark top
+
 - (CGFloat)gzh_top
 {
-    return self.gzh_y;
+    return CGRectGetMinY(self.frame);
 }
 
 - (void)setGzh_top:(CGFloat)gzh_top
 {
     self.gzh_y = gzh_top;
 }
+
+#pragma mark bottom
 
 - (CGFloat)gzh_bottom
 {

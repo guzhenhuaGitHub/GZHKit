@@ -19,7 +19,7 @@
 
 @property (nonatomic, assign) CGFloat gzh_centerX;
 @property (nonatomic, assign) CGFloat gzh_centerY;
-@property (nonatomic, assign, readonly) CGPoint gzh_boundsCenter;
+@property (nonatomic, assign, readonly) CGPoint gzh_centerInside;
 
 @property (nonatomic, assign) CGFloat gzh_left;
 @property (nonatomic, assign) CGFloat gzh_right;

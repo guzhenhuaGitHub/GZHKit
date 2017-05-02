@@ -14,3 +14,8 @@
 
 @end
 
+@interface UIView (GZHXib)
+
++ (instancetype)gzh_viewFromXib;
+
+@end
