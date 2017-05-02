@@ -10,6 +10,8 @@
 
 @interface UIView (GZHCircular)
 
+- (CGFloat)gzh_radius;
+
 - (void)gzh_circular;
 
 @end
