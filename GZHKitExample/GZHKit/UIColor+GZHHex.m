@@ -41,7 +41,6 @@
     CGFloat g = (hex4.hex & 0x0F00) >> 8;
     CGFloat b = (hex4.hex & 0x00F0) >> 4;
     CGFloat a = (hex4.hex & 0x000F) >> 0;
-    
     return [UIColor colorWithRed:r/255 green:g/255 blue:b/255 alpha:a/255];
 }
 
@@ -55,7 +54,6 @@
     CGFloat g = (hex8.hex & 0x00FF0000) >> 16;
     CGFloat b = (hex8.hex & 0x0000FF00) >> 8;
     CGFloat a = (hex8.hex & 0x000000FF) >> 0;
-    
     return [UIColor colorWithRed:r/255 green:g/255 blue:b/255 alpha:a/255];
 }
 

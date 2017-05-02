@@ -7,11 +7,12 @@
 //
 
 #import "UIViewController+GZHCurrentViewController.h"
+#import "GZHKit.h"
 
 @implementation UIViewController (GZHCurrentViewController)
 
 + (__kindof UIViewController *)currentViewController {
-    return [[[[UIApplication sharedApplication] keyWindow] rootViewController] currentViewController];
+    return [[[UIApplication keyWindow] rootViewController] currentViewController];
 }
 
 - (__kindof UIViewController *)currentViewController {
