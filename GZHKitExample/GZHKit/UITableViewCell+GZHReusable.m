@@ -18,7 +18,7 @@
     return [UINib nibWithNibName:[self gzh_reuseIdentifier] bundle:nil];
 }
 
-+ (UINib *)gzh_xibCellReuseFrom:(UITableView *)tableView {
++ (__kindof UITableViewCell *)gzh_xibCellReuseFrom:(UITableView *)tableView {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[self gzh_reuseIdentifier]];
     
     if (nil == cell) {

@@ -6,7 +6,7 @@
 //  Copyright © 2017年 顾振华. All rights reserved.
 //
 
-#import "UICollectionViewCell+cell.h"
+#import "UICollectionViewCell+GZHReusable.h"
 
 @implementation UICollectionViewCell (GZHReusable)
 
