@@ -16,6 +16,13 @@
 		5883F0391EB8303700843B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5883F0371EB8303700843B10 /* LaunchScreen.storyboard */; };
 		5883F0421EB8311C00843B10 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5883F0401EB8311C00843B10 /* LICENSE */; };
 		5883F0431EB8311C00843B10 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5883F0411EB8311C00843B10 /* README.md */; };
+		5883F0511EB832D600843B10 /* UICollectionViewCell+GZHReusable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F0491EB832D600843B10 /* UICollectionViewCell+GZHReusable.m */; };
+		5883F0521EB832D600843B10 /* UIColor+GZHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F04B1EB832D600843B10 /* UIColor+GZHExtension.m */; };
+		5883F0531EB832D600843B10 /* UIImage+GZHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F04D1EB832D600843B10 /* UIImage+GZHImage.m */; };
+		5883F0541EB832D600843B10 /* UIView+GZHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F04F1EB832D600843B10 /* UIView+GZHExtension.m */; };
+		5883F05B1EB837BF00843B10 /* UIView+GZHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F05A1EB837BF00843B10 /* UIView+GZHFrame.m */; };
+		5883F05E1EB837FF00843B10 /* UIView+GZHShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F05D1EB837FF00843B10 /* UIView+GZHShape.m */; };
+		5883F0611EB839A000843B10 /* UITableViewCell+GZHReusable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5883F0601EB839A000843B10 /* UITableViewCell+GZHReusable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +38,22 @@
 		5883F03A1EB8303700843B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5883F0401EB8311C00843B10 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		5883F0411EB8311C00843B10 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		5883F0451EB832D600843B10 /* GZHKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZHKit.h; sourceTree = "<group>"; };
+		5883F0481EB832D600843B10 /* UICollectionViewCell+GZHReusable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+GZHReusable.h"; sourceTree = "<group>"; };
+		5883F0491EB832D600843B10 /* UICollectionViewCell+GZHReusable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+GZHReusable.m"; sourceTree = "<group>"; };
+		5883F04A1EB832D600843B10 /* UIColor+GZHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GZHExtension.h"; sourceTree = "<group>"; };
+		5883F04B1EB832D600843B10 /* UIColor+GZHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GZHExtension.m"; sourceTree = "<group>"; };
+		5883F04C1EB832D600843B10 /* UIImage+GZHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GZHImage.h"; sourceTree = "<group>"; };
+		5883F04D1EB832D600843B10 /* UIImage+GZHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GZHImage.m"; sourceTree = "<group>"; };
+		5883F04E1EB832D600843B10 /* UIView+GZHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GZHExtension.h"; sourceTree = "<group>"; };
+		5883F04F1EB832D600843B10 /* UIView+GZHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZHExtension.m"; sourceTree = "<group>"; };
+		5883F0581EB8359100843B10 /* GZHKit-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GZHKit-PrefixHeader.pch"; sourceTree = "<group>"; };
+		5883F0591EB837BF00843B10 /* UIView+GZHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GZHFrame.h"; sourceTree = "<group>"; };
+		5883F05A1EB837BF00843B10 /* UIView+GZHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZHFrame.m"; sourceTree = "<group>"; };
+		5883F05C1EB837FF00843B10 /* UIView+GZHShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GZHShape.h"; sourceTree = "<group>"; };
+		5883F05D1EB837FF00843B10 /* UIView+GZHShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZHShape.m"; sourceTree = "<group>"; };
+		5883F05F1EB839A000843B10 /* UITableViewCell+GZHReusable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+GZHReusable.h"; sourceTree = "<group>"; };
+		5883F0601EB839A000843B10 /* UITableViewCell+GZHReusable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+GZHReusable.m"; sourceTree = "<group>"; };
 		C4B5204EA2C1F8C8A43DCFE1 /* Pods-GZHKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZHKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GZHKit/Pods-GZHKit.debug.xcconfig"; sourceTree = "<group>"; };
 		D832C55F89753B484A9CC5DC /* libPods-GZHKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GZHKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AB726330B61FA9F6950BBE /* Pods-GZHKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZHKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GZHKit/Pods-GZHKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				5883F0401EB8311C00843B10 /* LICENSE */,
+				5883F0581EB8359100843B10 /* GZHKit-PrefixHeader.pch */,
 				5883F0411EB8311C00843B10 /* README.md */,
 				5883F02C1EB8303700843B10 /* AppDelegate.h */,
 				5883F02D1EB8303700843B10 /* AppDelegate.m */,
@@ -105,6 +129,21 @@
 		5883F0441EB8312300843B10 /* GZHKit */ = {
 			isa = PBXGroup;
 			children = (
+				5883F0451EB832D600843B10 /* GZHKit.h */,
+				5883F0481EB832D600843B10 /* UICollectionViewCell+GZHReusable.h */,
+				5883F0491EB832D600843B10 /* UICollectionViewCell+GZHReusable.m */,
+				5883F04A1EB832D600843B10 /* UIColor+GZHExtension.h */,
+				5883F04B1EB832D600843B10 /* UIColor+GZHExtension.m */,
+				5883F04C1EB832D600843B10 /* UIImage+GZHImage.h */,
+				5883F04D1EB832D600843B10 /* UIImage+GZHImage.m */,
+				5883F05F1EB839A000843B10 /* UITableViewCell+GZHReusable.h */,
+				5883F0601EB839A000843B10 /* UITableViewCell+GZHReusable.m */,
+				5883F04E1EB832D600843B10 /* UIView+GZHExtension.h */,
+				5883F04F1EB832D600843B10 /* UIView+GZHExtension.m */,
+				5883F0591EB837BF00843B10 /* UIView+GZHFrame.h */,
+				5883F05A1EB837BF00843B10 /* UIView+GZHFrame.m */,
+				5883F05C1EB837FF00843B10 /* UIView+GZHShape.h */,
+				5883F05D1EB837FF00843B10 /* UIView+GZHShape.m */,
 			);
 			path = GZHKit;
 			sourceTree = "<group>";
@@ -152,6 +191,7 @@
 					5883F0251EB8303700843B10 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = QX529Y9PWR;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -241,10 +281,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5883F0511EB832D600843B10 /* UICollectionViewCell+GZHReusable.m in Sources */,
+				5883F0541EB832D600843B10 /* UIView+GZHExtension.m in Sources */,
+				5883F05E1EB837FF00843B10 /* UIView+GZHShape.m in Sources */,
 				5883F0311EB8303700843B10 /* ViewController.m in Sources */,
+				5883F0611EB839A000843B10 /* UITableViewCell+GZHReusable.m in Sources */,
 				5883F02E1EB8303700843B10 /* AppDelegate.m in Sources */,
 				5883F0431EB8311C00843B10 /* README.md in Sources */,
+				5883F0531EB832D600843B10 /* UIImage+GZHImage.m in Sources */,
 				5883F02B1EB8303700843B10 /* main.m in Sources */,
+				5883F05B1EB837BF00843B10 /* UIView+GZHFrame.m in Sources */,
+				5883F0521EB832D600843B10 /* UIColor+GZHExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +412,17 @@
 			baseConfigurationReference = C4B5204EA2C1F8C8A43DCFE1 /* Pods-GZHKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QX529Y9PWR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GZHKit/GZHKit-PrefixHeader.pch";
 				INFOPLIST_FILE = GZHKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vic.GZHKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -378,11 +431,16 @@
 			baseConfigurationReference = F4AB726330B61FA9F6950BBE /* Pods-GZHKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QX529Y9PWR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GZHKit/GZHKit-PrefixHeader.pch";
 				INFOPLIST_FILE = GZHKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vic.GZHKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

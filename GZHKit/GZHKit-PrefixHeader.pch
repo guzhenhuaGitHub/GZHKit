@@ -1,0 +1,16 @@
+//
+//  GZHKit-PrefixHeader.pch
+//  GZHKit
+//
+//  Created by 顾振华 on 2017/5/2.
+//  Copyright © 2017年 顾振华. All rights reserved.
+//
+
+#ifndef GZHKit_PrefixHeader_pch
+#define GZHKit_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "GZHKit.h"
+
+#endif /* GZHKit_PrefixHeader_pch */
