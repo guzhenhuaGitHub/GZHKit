@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  GZHKit
+//  GZHKitExample
 //
 //  Created by 顾振华 on 2017/5/2.
 //  Copyright © 2017年 顾振华. All rights reserved.
