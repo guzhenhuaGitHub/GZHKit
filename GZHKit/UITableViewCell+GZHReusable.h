@@ -14,6 +14,6 @@
 
 + (UINib *)gzh_nib;
 
-+ (UINib *)gzh_xibCellReuseFrom:(UITableView *)tableView;
++ (__kindof UITableViewCell *)gzh_xibCellReuseFrom:(UITableView *)tableView;
 
 @end
