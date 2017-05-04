@@ -6,5 +6,7 @@ target 'GZHKitExample' do
   # use_frameworks!
 
   # Pods for GZHKitExample
+  pod 'SDWebImage'
+  pod 'MBProgressHUD'
 
 end
