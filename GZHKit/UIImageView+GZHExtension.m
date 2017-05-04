@@ -15,8 +15,9 @@
 - (void)setImageWithURL:(NSString *)url placeholderImageNamed:(NSString *)placeholderImageName
 {
     weakSelf;
-    UIImage *placeholder = [UIImage imageNamed:@"defaultUserIcon"];
-    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:placeholder completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL)
+    [self sd_setImageWithURL:[NSURL URLWithString:url]
+            placeholderImage:[UIImage imageNamed:placeholderImageName]
+                   completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL)
     {
         if (image == nil) return;
         weakself.image = image;

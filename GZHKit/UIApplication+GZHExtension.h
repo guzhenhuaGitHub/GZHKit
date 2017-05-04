@@ -11,5 +11,7 @@
 @interface UIApplication (GZHExtension)
 
 + (UIWindow *)keyWindow;
+// 最上面的window
++ (UIWindow *)topWindow;
 
 @end

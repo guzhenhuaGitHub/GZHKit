@@ -11,6 +11,7 @@
 @interface UIViewController (GZHCurrentViewController)
 
 + (__kindof UIViewController *)currentViewController;
+
 - (__kindof UIViewController *)currentViewController;
 
 @end

@@ -14,4 +14,8 @@
     return [UIApplication sharedApplication].keyWindow;
 }
 
++ (UIWindow *)topWindow {
+    return [UIApplication sharedApplication].windows.lastObject;
+}
+
 @end

@@ -9,9 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (GZHExtension)
-
-- (NSString *)trimWithDefault:(NSString *)_default;
+// 是否为空
+- (BOOL)isEmpty;
+// 去空格字符串
 - (NSString *)trim;
+// 去空格字符串(为空时显示默认字符串)
+- (NSString *)trimWithDefault:(NSString *)_default;
+// 计算文件大小
 - (unsigned long long)fileSize;
 
 @end
