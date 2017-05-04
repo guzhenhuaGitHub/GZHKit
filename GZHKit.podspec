@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
     s.platform      = :ios ,'7.0'
     s.source        = { :git => 'https://github.com/guzhenhuaGitHub/GZHKit.git', :tag => s.version }
     s.source_files  = 'GZHKit/*.{h,m}'
-#s.exclude_files = 'GZHKit/GZHKit.h'
+    # s.exclude_files = 'GZHKit/GZHKit.h'
     s.public_header_files = 'GZHKit/*.h'
-#s.frameworks    = 'UIKit', 'Foundation'
+    # s.frameworks    = 'UIKit', 'Foundation'
     s.requires_arc  = true
     s.dependency 'SDWebImage'
     s.dependency 'MBProgressHUD'
