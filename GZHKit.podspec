@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name          = 'GZHKit'
-    s.version       = '0.0.1'
+    s.version       = '0.0.2'
     s.summary       = '个人开发iOS所用的工具包'
     s.description   = <<-DESC
                         个人开发iOS所用的工具包
