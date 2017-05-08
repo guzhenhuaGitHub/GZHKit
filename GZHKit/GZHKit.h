@@ -25,6 +25,8 @@
 #import "UITableViewCell+GZHReusable.h"
 #import "UITextField+GZHExtension.h"
 #import "UIView+GZHExtension.h"
+#import "UIView+GZHFrame.h"
+#import "UIView+GZHShape.h"
 #import "UIViewController+GZHCurrentViewController.h"
 
 #define weak(obj)   __weak typeof(obj) weak##obj = obj;

@@ -28,6 +28,8 @@
 		589CC5891EBB15F90007109C /* UITextField+GZHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 589CC57A1EBB15F90007109C /* UITextField+GZHExtension.m */; };
 		589CC58A1EBB15F90007109C /* UIView+GZHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 589CC57C1EBB15F90007109C /* UIView+GZHExtension.m */; };
 		589CC58D1EBB17360007109C /* UIViewController+GZHCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589CC58C1EBB17360007109C /* UIViewController+GZHCurrentViewController.m */; };
+		58B715C31EC01EB8004A2FA7 /* UIView+GZHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B715C21EC01EB8004A2FA7 /* UIView+GZHFrame.m */; };
+		58B715C61EC01F8C004A2FA7 /* UIView+GZHShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B715C51EC01F8C004A2FA7 /* UIView+GZHShape.m */; };
 		6C4BE04A1D5BBE2059BCE648 /* libPods-GZHKitExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B52C1727C8384F1F97C0A23D /* libPods-GZHKitExample.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,10 @@
 		589CC57C1EBB15F90007109C /* UIView+GZHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZHExtension.m"; sourceTree = "<group>"; };
 		589CC58B1EBB17360007109C /* UIViewController+GZHCurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GZHCurrentViewController.h"; sourceTree = "<group>"; };
 		589CC58C1EBB17360007109C /* UIViewController+GZHCurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GZHCurrentViewController.m"; sourceTree = "<group>"; };
+		58B715C11EC01EB8004A2FA7 /* UIView+GZHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GZHFrame.h"; sourceTree = "<group>"; };
+		58B715C21EC01EB8004A2FA7 /* UIView+GZHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZHFrame.m"; sourceTree = "<group>"; };
+		58B715C41EC01F8C004A2FA7 /* UIView+GZHShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GZHShape.h"; sourceTree = "<group>"; };
+		58B715C51EC01F8C004A2FA7 /* UIView+GZHShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZHShape.m"; sourceTree = "<group>"; };
 		B52C1727C8384F1F97C0A23D /* libPods-GZHKitExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GZHKitExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -175,6 +181,10 @@
 				589CC57A1EBB15F90007109C /* UITextField+GZHExtension.m */,
 				589CC57B1EBB15F90007109C /* UIView+GZHExtension.h */,
 				589CC57C1EBB15F90007109C /* UIView+GZHExtension.m */,
+				58B715C11EC01EB8004A2FA7 /* UIView+GZHFrame.h */,
+				58B715C21EC01EB8004A2FA7 /* UIView+GZHFrame.m */,
+				58B715C41EC01F8C004A2FA7 /* UIView+GZHShape.h */,
+				58B715C51EC01F8C004A2FA7 /* UIView+GZHShape.m */,
 				589CC58B1EBB17360007109C /* UIViewController+GZHCurrentViewController.h */,
 				589CC58C1EBB17360007109C /* UIViewController+GZHCurrentViewController.m */,
 			);
@@ -314,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				589CC5861EBB15F90007109C /* UIScreen+GZHExtension.m in Sources */,
+				58B715C31EC01EB8004A2FA7 /* UIView+GZHFrame.m in Sources */,
 				589CC5881EBB15F90007109C /* UITableViewCell+GZHReusable.m in Sources */,
 				589CC57F1EBB15F90007109C /* UIApplication+GZHExtension.m in Sources */,
 				589CC58D1EBB17360007109C /* UIViewController+GZHCurrentViewController.m in Sources */,
@@ -322,6 +333,7 @@
 				589CC58A1EBB15F90007109C /* UIView+GZHExtension.m in Sources */,
 				589CC57E1EBB15F90007109C /* NSString+GZHExtension.m in Sources */,
 				589CC5831EBB15F90007109C /* UIColor+GZHHex.m in Sources */,
+				58B715C61EC01F8C004A2FA7 /* UIView+GZHShape.m in Sources */,
 				589CC5801EBB15F90007109C /* UIBarButtonItem+GZHExtension.m in Sources */,
 				589CC5841EBB15F90007109C /* UIImage+GZHImage.m in Sources */,
 				589CC57D1EBB15F90007109C /* MBProgressHUD+GZHExtension.m in Sources */,
