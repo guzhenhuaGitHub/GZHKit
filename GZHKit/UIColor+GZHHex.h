@@ -8,14 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NSString (GZHHex)
-
-- (NSInteger)hex;
-
-@end
-
 @interface UIColor (GZHHex)
 
-+ (UIColor *)gzh_colorWithHex:(NSString *)hex;
++ (UIColor *)gzh_colorWithHex:(NSInteger)number;
 
 @end

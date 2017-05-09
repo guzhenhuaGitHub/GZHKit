@@ -25,7 +25,7 @@
 @implementation UITabBarController (GZHCurrentViewController)
 
 - (__kindof UIViewController *)currentViewController {
-    return self.selectedViewController;
+    return self.selectedViewController.currentViewController;
 }
 
 @end
@@ -33,7 +33,7 @@
 @implementation UINavigationController (GZHCurrentViewController)
 
 - (__kindof UIViewController *)currentViewController {
-    return self.visibleViewController;
+    return self.visibleViewController.currentViewController;
 }
 
 @end
